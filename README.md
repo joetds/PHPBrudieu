@@ -1,2 +1,2 @@
 # PHPBrudieu
-Les parts que anem creant a classe aniran sent pujades aquí
+Els diferents apartats sobre la programació que anem creant a classe aniran sent pujats aquí
