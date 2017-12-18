@@ -59,5 +59,27 @@
       break;
  }
 
+ //funcions
+
+$b = primeraFuncio(15);
+echo $b;
+
+ function primeraFuncio ($a){
+   global $salt;
+   echo $a . $salt;
+   return ($a + $a) . $salt;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
 
  ?>
