@@ -64,22 +64,12 @@
 $b = primeraFuncio(15);
 echo $b;
 
- function primeraFuncio ($a){
+ function primeraFuncio ($a = 5){
    global $salt;
    echo $a . $salt;
    return ($a + $a) . $salt;
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
+define("myLink","link: <a href='./index.php'>Link</a>");
+echo myLink . $salt;
  ?>
