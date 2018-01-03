@@ -73,3 +73,18 @@ echo $b;
 define("myLink","link: <a href='./index.php'>Link</a>");
 echo myLink . $salt;
  ?>
+
+<html>
+
+  <h1> Headline1 </h1>
+  <body>
+      <?php   $joel = "Joel";    ?>
+      <p> <?   echo $a //modificar el fitxer php.ini dins la carpeta php de la stack bsucar shot_open_tag i posar "on"    ?> </p>
+      <? if($joel):?>
+          <p> <?echo $joel?> </p>
+      <? else: ?>
+          <p> no existeix </p>
+      <? endif; ?>
+  </body>
+
+</html>
