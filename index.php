@@ -70,18 +70,21 @@ echo $b;
    return ($a + $a) . $salt;
  }
 
-define("myLink","link: <a href='./index.php'>Link</a>");
+define("myLink","botó: <a href='./index.php'>Link</a>");
+include("./buttons.php");
 echo myLink . $salt;
  ?>
 
 <html>
 
-  <h1> Headline1 </h1>
+  <h1> Index </h1>
   <body>
-      <?php   $joel = "Joel";    ?>
       <p> <?   echo $a //modificar el fitxer php.ini dins la carpeta php de la stack bsucar shot_open_tag i posar "on"    ?> </p>
-      <? if($joel):?>
-          <p> <?echo $joel?> </p>
+      <? if($mostra):?>
+          <p> <?echo index?> </p>
+          <p> <?echo page2?> </p>
+          <p> <?echo page3?> </p>
+
       <? else: ?>
           <p> no existeix </p>
       <? endif; ?>
