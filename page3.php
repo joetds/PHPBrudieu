@@ -23,6 +23,28 @@
       <? else: ?>
           <p> no existeix </p>
       <? endif; ?>
+
+<!--mètode GET-->
+
+  <form action="#" method="get">
+    <input type="text" name="name"></input> <br>
+    <br>
+    <input type="text" name="email"></input> <br>
+    <input type="submit" name="submit" value="envia"></input>
+  </form>
+
+  <?
+
+      echo "el teu nom és:" . $_GET["name"];
+
+  ?>
+
+
+
+
+
+
+
   </body>
 
 </html>
