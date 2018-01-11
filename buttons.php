@@ -11,4 +11,6 @@ define("page3",'<form action="./page3.php">
                 <input type="submit" value="page3" />
                 </form>');
 
+$buttons = array(index, page2, page3);                
+
  ?>
