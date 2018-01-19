@@ -2,10 +2,10 @@
 
 <?
 //host, usuari, contrasenya, nom BD
-$connexio = mysqli_connect('localhost','root','alumne','exemple');ex
+//$connexio = mysqli_connect('localhost','root','alumne','exemple');ex
 
-if(!$connexio){die("ERROR" . mysqli_connect_error());}
-
+//if(!$connexio){die("ERROR" . mysqli_connect_error());}
+require_once('SQL/conn.php');
 $queryCreateTable = "CREATE TABLE `mmo` (`id` INT NOT NULL AUTO_INCREMENT ,
         `joc` VARCHAR(255) NOT NULL ,
         `nivell` INT(3) NOT NULL ,
